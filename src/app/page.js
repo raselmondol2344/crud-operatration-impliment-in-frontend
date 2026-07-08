@@ -1,8 +1,11 @@
+import Hero from "./components/Hero";
+import PopularProducts from "./components/PopularProducts";
 
 export default function Home() {
   return (
    <div>
-    <h1>home page</h1>
+    <Hero></Hero>
+    <PopularProducts></PopularProducts>
    </div>
   );
 }
